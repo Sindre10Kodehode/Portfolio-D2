@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+    <!-- <script scr="tailwind.config.js">
+      {
+        import("tailwindcss").config;
+      }
+    </script> -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              Mauve: "#e2c4f6",
+              darkPurple: "#420039",
+              charcoal: "#28536b",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body class="bg-darkPurple">
+    <header class="flex justify-between h-24 p-8 bg-Mauve">
+      <img src="images/E2C4F6.jpeg" class="h-16" />
+      <div class="nav">
+        <button class="nav_button">Hero Section</button>
+        <button class="nav_button">About</button>
+        <button class="nav_button">Projects</button>
+        <button class="nav_button">About</button>
+      </div>
+    </header>
+    <main>
+      <!-- <div class="headerGradient"></div> -->
+      <section class="flex justify-around align-middle hero headerGradient">
+        <h1 class="w-10 m-6 text-6xl">Sindre Tofte Giske</h1>
+        <img src="images/IMG_20210406_093852_586.jpg" class="w-96" />
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

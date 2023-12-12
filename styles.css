@@ -1,0 +1,42 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+    animation: 2s forwards ease fade-in;
+}
+
+.headerGradient {
+    background: linear-gradient(to bottom, #E2C4F6, #420039);
+    padding: 240px 0;
+}
+
+.hero img {
+    border-radius: 46%;
+    border: bottom style #420039;
+    border: top style #e2c4f6;
+    
+}
+
+.nav_button {
+    background-color: #28536b;
+    color:#E2C4F6;
+    padding:8px;
+    border-radius: 8px;
+    opacity: 70%;
+    transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.nav_button:hover {
+    opacity: 90%;
+    transform: scale(105%);
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
