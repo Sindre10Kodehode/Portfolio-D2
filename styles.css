@@ -3,7 +3,8 @@
 @tailwind utilities; */
 
 body {
-    animation: 2s forwards ease fade-in;
+    /* animation: 1.5s forwards ease fade-in; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
 .headerGradient {
@@ -19,8 +20,9 @@ body {
 }
 
 .nav_button {
-    background-color: #28536b;
-    color:#E2C4F6;
+    /* background-color: #28536b; */
+    color:black;
+    font-weight: 900;
     padding:8px;
     border-radius: 8px;
     opacity: 70%;
