@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&family=Whisper&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&family=Whisper&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-  
+
     <!-- <script scr="tailwind.config.js">
       {
         import("tailwindcss").config;
@@ -33,29 +36,36 @@
     <header class="fixed flex items-center justify-between w-full h-24 p-8">
       <img src="images/metranspback.png" class="w-24 rounded-full" />
       <div class="navBox">
-        <button class="nav_button">Home</button>
-        <button class="nav_button">About</button>
-        <button class="nav_button">Projects</button>
-        <button class="nav_button">Contact</button>
+        <a href="#hero"><button class="nav_button">Home</button></a>
+        <a href="#about"><button class="nav_button">About</button></a>
+        <a href="#projects"><button class="nav_button">Projects</button></a>
+        <a href="contact"><button class="nav_button">Contact</button></a>
       </div>
     </header>
     <main>
-      <!-- <div class="headerGradient"></div> -->
-      <section class="flex justify-around align-middle hero headerGradient">
+      <section
+        id="hero"
+        class="flex justify-around align-middle hero"
+      >
         <div>
           <h1 class="w-10 m-6 text-7xl myName">Sindre Tofte Giske</h1>
           <h2 class="w-8 text-3xl myKeywords">Programmer, Musician, Artist.</h2>
         </div>
         <img src="images/IMG_20210406_093852_586.jpg" class="w-96" />
       </section>
-      <section class="flex justify-center p-24 about align center">
-        <h1 class="text-3xl"> Who Am I?</h1>
-
-
+      <section id="about" class="p-24 about">
+        <img src="images/stukro.png" alt="">
+        <h1 class="text-3xl">Who Am I?</h1>
+        <br>
+        <p class="text-xl">	Mitt navn er Sindre. Jeg er en kreativ kunstnerisk sjel, og anser koding og programmering som den ultimate kunstformen. Det er få ting mer tilfredsstillende enn å lage en både estetisk tilfredsstillende side og å bygge funksjonalitet inn i produktet. Jeg er løsningsorientert, og stopper sjeldent før alt er så bra som det kan være. </p>
       </section>
-
-
+      <section
+        id="projects"
+        class="flex justify-center p-24 about align center"
+      >
+        <h1 class="text-3xl">Projects</h1>
+      </section>
     </main>
-    <footer></footer>
+    <footer id="contact"></footer>
   </body>
 </html>

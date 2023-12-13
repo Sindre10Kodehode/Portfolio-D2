@@ -2,25 +2,26 @@
 @tailwind components;
 @tailwind utilities; */
 
-
-
 /*
     Fonts
 
 font-family: 'Comfortaa', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Whisper', cursive;
-
 */
+
+* {
+    scroll-behavior: smooth;
+}
 
 body {
     /* animation: 1.5s forwards ease fade-in; */
     font-family: 'Roboto', sans-serif;
 }
 
-.headerGradient {
+.hero {
     background: linear-gradient(to bottom, #E2C4F6, #420039);
-    padding: 16rem 0;
+    padding: 17rem 0;
 }
 
 .myKeywords {
@@ -59,14 +60,14 @@ body {
 }
 
 .nav_button:hover {
-    opacity: 90%;
+    opacity: 100%;
     transform: scale(105%);
     /* text-shadow: 0px 0px #E2C4F6; */
 }
 
 .about {
     color: #E2C4F6;
-    min-height: 6000px;
+    min-height: 600px;
 
 }
 
