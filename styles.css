@@ -20,7 +20,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(to bottom, #795094, #420039);
+  background: linear-gradient(to bottom, #6e3196, #420039);
   padding: 17rem 0;
 }
 
@@ -81,7 +81,6 @@ body {
     padding-left: 200px; 
     padding-right: 200px;
 }
-  
     .myName {
     width: 800px;
     margin-top: 100px;
